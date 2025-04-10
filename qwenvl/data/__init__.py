@@ -22,7 +22,7 @@ VIDEOCHATGPT = {
 }
 
 MY_DATASET = {
-    "annotation_path": "./demo/single_images.json",
+    "annotation_path": "./frozenlake/train.json",
     "data_path": "",
 }
 
@@ -53,7 +53,7 @@ def data_list(dataset_names):
 
 
 if __name__ == "__main__":
-    dataset_names = ["my_dataset"]
+    dataset_names = ["my_dataset%100"]
     configs = data_list(dataset_names)
     for config in configs:
         print(config)
