@@ -12,15 +12,15 @@ deepspeed=./scripts/zero3.json
 llm=Qwen/Qwen2.5-VL-7B-Instruct  # Using HuggingFace model ID
 
 # Training hyperparameters
-lr=2e-7
-batch_size=4
-grad_accum_steps=4
+lr=1e-5
+batch_size=16
+grad_accum_steps=2
 
 # Training entry point
 entry_file=qwenvl/train/train_qwen.py
 
 # Dataset configuration (replace with public dataset names)
-datasets=public_dataset1,public_dataset2
+datasets="my_dataset%100"
 
 # Output configuration
 run_name="qwen2vl-baseline"
@@ -33,7 +33,7 @@ args="
     --dataset_use ${datasets} \
     --data_flatten True \
     --tune_mm_vision False \
-    --tune_mm_mlp True \
+    --tune_mm_mlp False \
     --tune_mm_llm True \
     --bf16 \
     --output_dir ${output_dir} \

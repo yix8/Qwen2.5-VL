@@ -53,7 +53,7 @@ def apply_action_sequence(start_coord, actions, level, target_pos, distance_dict
 
 # 路径配置
 root_dir = Path("frozenlake/optimal_with_distance")
-eval_file = Path("frozenlake/eval_results.json")
+eval_file = Path("frozenlake/eval_results_gpt4o_direct.json")
 
 # 读取模型预测结果
 with open(eval_file, "r") as f:
@@ -130,7 +130,7 @@ for level_name in sorted(os.listdir(root_dir)):
             ends_correctly = final_state == target_state
 
             if path_length_matches and ends_correctly:
-                print(f"Correct: {level_name} {subfolder} -> {pred_actions} (length: {len(path)}, true_distance: {true_distance})")
+                print(f"Correct: {level_name} {subfolder} -> {pred_actions} (length: {len(path)}, true_distance: {true_distance}), correct {level_correct+1}")
                 correct += 1
                 level_correct += 1
         total += 1
@@ -141,7 +141,6 @@ for level_name in sorted(os.listdir(root_dir)):
     print(f"{level_name} Accuracy: {level_acc:.4f} ({level_correct}/{level_total})")
 
 
-# 输出最终准确率统计
 avg_acc = sum(acc for acc, _, _ in level_accuracy.values()) / len(level_accuracy)
 print("\n==== Final Summary ====")
 for level_name, (acc, corr, tot) in level_accuracy.items():

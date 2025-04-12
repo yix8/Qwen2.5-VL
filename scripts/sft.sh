@@ -12,9 +12,9 @@ deepspeed=./scripts/zero3.json
 llm=Qwen/Qwen2.5-VL-3B-Instruct  # Using HuggingFace model ID
 
 # Training hyperparameters
-lr=2e-7
-batch_size=4
-grad_accum_steps=4
+lr=1e-5
+batch_size=16
+grad_accum_steps=2
 
 # Training entry point
 entry_file=qwenvl/train/train_qwen.py
@@ -24,7 +24,7 @@ datasets="my_dataset%100"
 
 # Output configuration
 run_name="qwen2vl-baseline"
-output_dir=./output
+output_dir=./output_20
 
 # Training arguments
 args="
@@ -37,14 +37,14 @@ args="
     --tune_mm_llm True \
     --bf16 \
     --output_dir ${output_dir} \
-    --num_train_epochs 2 \
+    --num_train_epochs 10 \
     --per_device_train_batch_size ${batch_size} \
     --per_device_eval_batch_size $((batch_size*2)) \
     --gradient_accumulation_steps ${grad_accum_steps} \
     --max_pixels 50176 \
     --min_pixels 784 \
     --eval_strategy "no" \
-    --save_strategy "epoch" \
+    --save_strategy "no" \
     --learning_rate ${lr} \
     --weight_decay 0 \
     --warmup_ratio 0.03 \
