@@ -1,0 +1,147 @@
+[
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1000/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up left up left</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1001/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1002/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up right up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1003/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>down right</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1004/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1005/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>down right</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1006/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up left</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1007/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>left up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1008/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>down</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1009/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up left</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1010/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>right up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1011/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>right up up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1012/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>right up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1013/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up right</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1014/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up left up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1015/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>left up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1016/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>right right down</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1017/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>left left up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1018/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>down left down left</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1019/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1020/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up left up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1021/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>down</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1022/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up left</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1023/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>left down</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1024/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>left up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1025/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>left up up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1026/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up left up</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1027/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>up left up left</ANSWER>"
+  },
+  {
+    "image": "frozenlake/optimal_with_distance/level3/1028/0.jpg",
+    "prompt": "Task: Frozen Lake Shortest Path Planning\n\nYou are given an image of a grid-based environment. In this environment:\n- An elf marks the starting position.\n- A gift represents the goal.\n- Some cells contain ice holes that are impassable for the elf.\n- The elf can move in one of four directions only: \"up\", \"down\", \"left\", or \"right\". Each move transitions the elf by one cell in the corresponding absolute direction. Diagonal movement is not permitted.\n\nYour task is to analyze the image and generate the shortest valid sequence of actions that moves the elf from the starting position to the goal without stepping into any ice holes.\n\nDo not include any explanation. Only provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>.",
+    "model_output": "<ANSWER>right right</ANSWER>"
+  }
+]

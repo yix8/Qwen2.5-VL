@@ -2,7 +2,8 @@ import base64
 import json
 from tqdm import tqdm
 from pathlib import Path
-from openai import OpenAI
+from PIL import Image
+from google import genai
 
 PROMPT = """Task: Frozen Lake Shortest Path Planning
 
@@ -29,7 +30,7 @@ Your task is to analyze the image and generate the shortest valid sequence of ac
 
 Let's think step by step. Provide your final answer enclosed between <ANSWER> and </ANSWER>, for example: <ANSWER>right up up</ANSWER>."""
 
-client = OpenAI()
+client = genai.Client()
 
 # Function to encode the image
 def encode_image(image_path):
@@ -40,7 +41,7 @@ def encode_image(image_path):
 with open("frozenlake/test.json", "r") as f:
     data = json.load(f)
 
-results_path = Path("frozenlake/eval_results_gpt4o_direct.json")
+results_path = Path("frozenlake/eval_results_gemini_direct.json")
 
 if results_path.exists():
     with open(results_path, "r") as f:
@@ -58,31 +59,16 @@ for example in tqdm(data):
         continue
 
     print(f"Evaluating data {idx}.")
-    prompt_text = example["conversations"][0]["value"]
+    prompt_text = PROMPT
 
-    base64_image = encode_image(image_path)
+    image = Image.open(image_path)
 
-    messages=[
-            {
-                "role": "user",
-                "content": [
-                    { "type": "text", "text": PROMPT },
-                    {
-                        "type": "image_url",
-                        "image_url": {
-                            "url": f"data:image/jpeg;base64,{base64_image}",
-                        },
-                    },
-                ],
-            }
-        ]
-    
-    completion = client.chat.completions.create(
-        model="gpt-4o",
-        messages=messages
+    response = client.models.generate_content(
+        model="gemini-2.0-flash",
+        contents=[prompt_text, image]
     )
 
-    output_text = completion.choices[0].message.content
+    output_text = response.text
 
     print(output_text)
 
